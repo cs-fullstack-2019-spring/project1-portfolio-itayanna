@@ -1,2 +1,10 @@
+
+- Noon
+
 I decided on a design for my site. I know the color scheme and how im going to make the nav bar.
-i even designed an image for it. It is sketched out and planed on paper.
+i even designed an image for it. It is sketched out and planed on paper. The images are in the project file.
+under sketchOfPage and writtenPlanIdea.
+
+-afternoon
+
+I made a skeleton page that goes to the separate html paige for everything and it is functioning as it should. I know how i am going to lay it out
