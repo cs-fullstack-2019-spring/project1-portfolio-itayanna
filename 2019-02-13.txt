@@ -1,0 +1,7 @@
+-noon
+
+I spent alot of time figuring out how to convert  my page to a grid format as oposed to a table. I also wrote out the content for my skills and about me.
+
+-afternoon
+
+I put content in the portfolio tab, the resume and some of the contacts tab. and strted putting it in grid format.
