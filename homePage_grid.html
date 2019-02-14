@@ -4,74 +4,123 @@
     <meta charset="UTF-8">
     <title>I'Tayanna Cage portfolio</title>
     <link rel="stylesheet" href="homePage_grid.css">
+    <script src="homepage_grid.js"></script>
 </head>
 <body>
-<div>
-    <section class="grid-1">
-        <div class="head-1"><h1>I'Tayanna Cage</h1></div>
-    </section>
-    <section class="head-1">
-        <div class="head-2">Web Portfolio</div>
-    </section>
-</div>
 
-<div>
-    <nav class="nav">
-        <div class="nav1"><a class="navLinks" href="portfolio.html">Portfolio</a></div>
-        <div class="nav2"><a class="navLinks" href="resume.html">Resume</a></div>
-        <div class="nav3"><a class="navLinks" href="contact.html">Contact</a></div>
-        <div class="nav4"><a class="navLinks" href="education.html">Education</a></div>
-        <div class="nav5"><a class="navLinks" href="weeklyReflections.html">Weekly Reflections</a></div>
+<div class="gridSystemOverEverything">
+    <!--<section class="grid-1">-->
+        <!--<h1>I'Tayanna Cage</h1>-->
+    <!--</section>-->
+    <!--<section class="head-1">-->
+        <!--<h3>Web Portfolio</h3>-->
+    <!--</section>-->
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="firstdayOfcodeSchool.jpg" style="width:100%">
+            <div class="text">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="gameJammers.jpg" style="width:100%">
+            <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="gameprez.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <nav id="navBar">
+            <a href="portfolio.html">Portfolio</a>
+            /
+            <a href="resume.html">Resume</a>
+            /
+            <a href="contact.html">Contact</a>
+            /
+            <a href="weeklyReflections.html">Weekly Reflections</a>
     </nav>
-</div>
-<div>
-    <!--!st section-->
-    <section class="body-1">
-        <div class="body-img-section"><img class="body-img" src="img-portfolio-1.png"/></div>
-        <div class="head-2">About Me</div>
-        <div class="body-text1-section">I am 21 years and I live in Memphis, Tennessee where I am currently attending
-            CodeCrew Code School. Since the start of my program I have
-            been participating in various code events such as Game Jams, family code days, and Code-Op networking events
-            giving me opportunities to build
-            my experience. It is such a joy for me to work with all of these awesome teams of incredible people, and a
-            true honor to be able
-            to learn so much from them. I got the chance to create apps, video games, even teach code, and my love for
-            development is only growing more
-            everyday. The closer I get to my graduation in June, the more hungry I am for opportunity to contribute to
-            this ever growing tech field.
-            I am looking for an entry-level position at a company that will value my love for teamwork and attention to
-            detail along with my fresh knowledge
-            of coding. If you also happen to be looking for a new developer eager to contribute please feel free to
-            explore this site further for more details
-            and contact information.
-        </div>
-    </section>
-    <!--Second section skills-->
-    <section class="body-2">
-        <div class="body-img-section"><img class="body-img" src="img-portfolio-2.png"/></div>
-        <div class="head-2">Skills</div>
-        <div class="body-text2-section">
-            <ul id="skills">
-                <li>HTML</li>
-                |
-                <li>CSS</li>
-                |
-                <li>JavaScript</li>
-                |
-                <li>Python</li>
-                |
-                <li>Frontend Development</li>
-                |
-                <li>Linux/Windows</li>
-                |
-                <li>Creative Writing</li>
-                |
-                <li>Graphic Design</li>
-            </ul>
 
-        </div>
+<!--!st section-->
 
-    </section>
+    <div id="image1">
+        <img class="body-img" src="img-portfolio-1.png"/>
+    </div>
+
+    <div id="aboutMeTitle"><h4>About Me</h4></div>
+
+    <div class="body-text1-section">I am 21 years and I live in Memphis, Tennessee where I am currently attending
+        CodeCrew Code School. Since the start of my program I have
+        been participating in various code events such as Game Jams, family code days, and Code-Op networking events
+        giving me opportunities to build
+        my experience. It is such a joy for me to work with all of these awesome teams of incredible people, and a
+        true honor to be able
+        to learn so much from them. I got the chance to create apps, video games, even teach code, and my love for
+        development is only growing more
+        everyday. The closer I get to my graduation in June, the more hungry I am for opportunity to contribute to
+        this ever growing tech field.
+        I am looking for an entry-level position at a company that will value my love for teamwork and attention to
+        detail along with my fresh knowledge
+        of coding. If you also happen to be looking for a new developer eager to contribute please feel free to
+        explore this site further for more details
+        and contact information.
+    </div>
+
+<!--Second section skills-->
+
+
+    <div id="skillsTitle"><h4>Skills</h4></div>
+    <div class="body-text2-section">
+        <ul id="skills">
+            <li>HTML</li>
+            |
+            <li>CSS</li>
+            |
+            <li>JavaScript</li>
+            |
+            <li>Python</li>
+            |
+            <li>Frontend Development</li>
+            |
+            <li>Linux/Windows</li>
+            |
+            <li>Creative Writing</li>
+            |
+            <li>Graphic Design</li>
+        </ul>
+    </div>
+
+    <div id="educationTitle">
+        <h4>Education</h4>
+    </div>
+    <div class="body-text3-section">
+        Highschool- Tennessee Online Public School Graduated 2016 <br>
+        Secondary- CodeCrew Code school Graduate June 21 2019
+    </div>
+
+    <div id="image2">
+        <img class="body-img" src="img-portfolio-2.png"/>
+    </div>
+
+
 </div>
+
 </body>
 </html>
