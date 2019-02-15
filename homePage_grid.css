@@ -1,6 +1,9 @@
 body {
-    margin: 5% 10%;
-    font-family: sans-serif;
+    margin: 5% 15%;
+}
+
+div{
+    margin: 0 8%;
 }
 
 .gridSystemOverEverything
@@ -10,22 +13,22 @@ body {
     text-align: center;
 }
 
-.grid-1 {
-    /*max-width: 770px;*/
-    /*margin: 0 auto;*/
-    font-size: 20px;
-    /*padding: 20px;*/
-    grid-column: 1/4;
-    grid-row: 1;
+/*.grid-1 {*/
+    /*!*max-width: 770px;*!*/
+    /*!*margin: 0 auto;*!*/
+    /*font-size: 20px;*/
+    /*!*padding: 20px;*!*/
+    /*grid-column: 1/4;*/
+    /*grid-row: 1;*/
 }
 
-.head-1 {
-    grid-column: 1/4;
-    grid-column: 2;
-    font-size: 30px;
-    font-weight: bold;
-    float: top;
-}
+/*.head-1 {*/
+    /*grid-column: 1/4;*/
+    /*grid-column: 2;*/
+    /*font-size: 30px;*/
+    /*font-weight: bold;*/
+    /*float: top;*/
+/*}*/
 
 
 
