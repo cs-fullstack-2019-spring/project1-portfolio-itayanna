@@ -2,62 +2,118 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>I'Tayanna Cage</title>
+    <title>I'Tayanna Cage portfolio</title>
     <link rel="stylesheet" href="index.css">
 </head>
-<body>
-<table>
-    <tr>
-        <td id="header" colspan="4">
-            <h1>I'Tayanna Cage <br> Web Portfolio</h1>
-        </td>
-    </tr>
-    <tr id="navBar">
-        <td colspan="4">
+<body class="gridSystemOverEverything">
+<h1>I'Tayanna Cage</h1>
+<h2>Web Portfolio</h2>
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+        <img src="firstdayOfcodeSchool.jpg" style="width: 1000px; height: 550px;">
+    </div>
+
+    <div class="mySlides fade">
+        <img src="gameJammers.jpg" style="width: 1000px; height: 550px;">
+    </div>
+
+    <div class="mySlides fade">
+        <img src="IMG_E0124.JPG" style="width:1000px; height: 550px;">
+    </div>
+
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+    <nav id="navBar">
+            <a href="index.html">Home</a>
+            /
             <a href="portfolio.html">Portfolio</a>
             /
             <a href="resume.html">Resume</a>
             /
             <a href="contact.html">Contact</a>
             /
-            <a href="education.html">Education</a>
-            /
             <a href="weeklyReflections.html">Weekly Reflections</a>
-        </td>
-    </tr>
-    <tr><td colspan="4"><hr/></td> </tr>
-    <tr>
-        <td id="id-img1">
 
-            <img src="img-portfolio-1.png" width="300"/></td>
 
-        <td colspan="3"><h1>About Me</h1>I am 21 years and I live in Memphis, Tennessee where I am currently attending CodeCrew Code School. Since the start of my program I have
-            been participating in various code events such as Game Jams, family code days, and Code-Op networking events giving me opportunities to build
-            my experience. It is such a joy for me to work with all of these awesome teams of incredible people, and a true honor to be able
-            to learn so much from them. I got the chance to create apps, video games, even teach code, and my love for development is only growing more
-            everyday. The closer I get to my graduation in June, the more hungry I am for opportunity to contribute to this ever growing tech field.
-            I am looking for an entry-level position at a company that will value my love for teamwork and attention to detail along with my fresh knowledge
-            of coding. If you also happen to be looking for a new developer eager to contribute please feel free to explore this site further for more details
-            and contact information.
-        </td>
-    </tr>
-    <tr><td colspan="4"><hr/></td> </tr>
-    <tr>
-        <td id="skillsTitle" colspan="3">
-            <h1>Skills</h1>
-            - HTML
-            - CSS
-            - Javascript
-            - JQuery
-            - Python
-            - Frontend Development - Creative writing - Linux/Ubuntu - very light graphic design
+    </nav>
 
-        </td>
-        <td id="id-img2" >
-            <img src="img-portfolio-2.png" width="300"/>
-        </td>
-    </tr>
+<!--!st section-->
 
-</table>
+    <div id="image1">
+        <img class="body-img" src="img-portfolio-1.png"/>
+    </div>
+
+    <div id="aboutMeTitle"><h4>About Me</h4></div>
+
+    <img class="body-img" id="headshot" src="headshot.jpg" alt="Photo of I'Tayanna">
+
+    <div class="body-text1-section">
+
+        I am 21 years and I live in Memphis, Tennessee where I am currently attending
+        CodeCrew Code School. Since the start of my program I have
+        been participating in various code events such as Game Jams, family code days, and Code-Op networking events
+        giving me opportunities to build
+        my experience. It is such a joy for me to work with all of these awesome teams of incredible people, and a
+        true honor to be able
+        to learn so much from them. I got the chance to create apps, video games, even teach code, and my love for
+        development is only growing more
+        everyday. The closer I get to my graduation in June, the more hungry I am for opportunity to contribute to
+        this ever growing tech field.
+        I am looking for an entry-level position at a company that will value my love for teamwork and attention to
+        detail along with my fresh knowledge
+        of coding. If you also happen to be looking for a new developer eager to contribute please feel free to
+        explore this site further for more details
+        and contact information.
+    </div>
+
+<!--Second section skills-->
+
+
+    <div id="skillsTitle"><h4>Skills</h4></div>
+    <div class="body-text2-section">
+        <ul id="skills">
+            <li>HTML</li>
+            |
+            <li>CSS</li>
+            |
+            <li>JavaScript</li>
+            |
+            <li>Python</li>
+            |
+            <li>Frontend Development</li>
+            |
+            <li>Linux/Windows</li>
+            |
+            <li>Creative Writing</li>
+            |
+            <li>Graphic Design</li>
+        </ul>
+    </div>
+
+    <div id="educationTitle">
+        <h4>Education</h4>
+    </div>
+    <div class="body-text3-section">
+        Highschool- Tennessee Online Public School Graduated 2016 <br>
+        Secondary- CodeCrew Code school Graduate June 21 2019
+    </div>
+
+    <div id="image2">
+        <img class="body-img" src="img-portfolio-2.png"/>
+    </div>
+
+
+</div>
+<script src="homepage_grid.js"></script>
 </body>
 </html>

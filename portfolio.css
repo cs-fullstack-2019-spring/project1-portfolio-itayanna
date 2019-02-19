@@ -1,7 +1,9 @@
 body{
-    text-align: center;
+text-align: center;
+background-color: #b6f8b2;
 }
 
 nav{
     padding: 10px;
+    color: black;
 }

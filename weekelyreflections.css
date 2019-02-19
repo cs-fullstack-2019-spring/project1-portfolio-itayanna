@@ -1,13 +1,46 @@
 body{
   margin: 5% 10%;
+    background-color: #b6f8b2;
 }
 
 
+
+.gridSystemOverEverything{
+
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
 h1{
     text-align: center;
+    grid-column: 1/5;
+    grid-row: 1;
+}
+
+#image1{
+    width: 200px;
+    grid-column: 4;
+    grid-row: 2;
+    float: right;
+}
+
+#image2{
+    width: 200px;
+    grid-column: 1;
+    grid-row: 2;
+    float: left;
 }
 
 nav{
     padding: 10px;
     text-align: center;
+    grid-column:1/5 ;
+    grid-row: 3;
+    color: black;
+}
+
+
+div{
+    grid-column: 1/5;
+    grid-row: 4;
 }
